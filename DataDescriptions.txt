@@ -1,7 +1,10 @@
 PurpleAir Deer Park Air Quality:
 
 About
-This dataset contains information concerning the quality, humidity, and temperature of air in the South East Houston area. The data points are indexed by datetime in 4 hour intervals from Jan 1 2022 to April 1 2022. The most import part of this dataset is the measurements concerning PM1.0, PM2.5, and PM10.0. PM stands for particulate matter, and is one of the most important measurements when determining air quality.
+This dataset contains information concerning the quality, humidity, and temperature of air in the South East Houston area. 
+The data points are indexed by datetime in 4 hour intervals from Jan 1 2022 to April 1 2022. 
+The most import part of this dataset is the measurements concerning PM1.0, PM2.5, and PM10.0. 
+PM stands for particulate matter, and is one of the most important measurements when determining air quality.
 
 Columns
 PM1.0 CF1 ug/m3: The amount of particle matter of a length 1 micrometer or smaller in the air
@@ -24,7 +27,10 @@ This dataset was pulled from PurpleAir, which has real time and historical data 
 United States Geological Survey Water Quality Data:
 
 About
-This dataset has information about water quality in the Lynchburg Canal near Baytown, Texas. It contains daily data on temperature, specific conductance, pH, turbidity, and dissolved oxygen. In this dataset the most important statistics are the dissolved oxygen and pH. Both of these factors contribute greatly to the quality of the water, and fluctuations in both can harm the surrounding enviroment.
+This dataset has information about water quality in the Lynchburg Canal near Baytown, Texas. 
+It contains daily data on temperature, specific conductance, pH, turbidity, and dissolved oxygen. 
+In this dataset the most important statistics are the dissolved oxygen and pH. 
+Both of these factors contribute greatly to the quality of the water, and fluctuations in both can harm the surrounding enviroment.
 
 Columns
 Date: datetime
@@ -45,7 +51,9 @@ This table was taken from the United States Geological Survey Water Resource web
 Trinity Bay Salinity Data:
 
 About
-This simple dataset is the daily average of the salinity of Trinity Bay. Salinity is the salt and soil content of water. Salinity affects the health of plant and fish life in the canal. Salinity occurs naturally, but unnatural increases can occur do to waste or infrastructure affecting the ground water.
+This simple dataset is the daily average of the salinity of Trinity Bay. 
+Salinity is the salt and soil content of water. Salinity affects the health of plant and fish life in the canal. 
+Salinity occurs naturally, but unnatural increases can occur do to waste or infrastructure affecting the ground water.
 
 Columns
 datetime: The date and time the measurements took place a
