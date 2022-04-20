@@ -1,0 +1,55 @@
+PurpleAir Deer Park Air Quality:
+
+About
+This dataset contains information concerning the quality, humidity, and temperature of air in the South East Houston area. The data points are indexed by datetime in 4 hour intervals from Jan 1 2022 to April 1 2022. The most import part of this dataset is the measurements concerning PM1.0, PM2.5, and PM10.0. PM stands for particulate matter, and is one of the most important measurements when determining air quality.
+
+Columns
+PM1.0 CF1 ug/m3: The amount of particle matter of a length 1 micrometer or smaller in the air
+PM2.5 CF1 ug/m3: The amount of particle matter of a length 2.5 micrometer or smaller in the air
+PM 10 CF1 ug/m3: The amount of particle matter of a length 10 micrometer or smaller in the air
+UptimeMinutes: How long the site sensor stayed active
+RSSI dbm: Signal strength
+Temperature: Air temperature in Fahrenheit
+Humidtity %: Percent humidity of the air
+PM2.5 ATM ug/m3: The amount of particle matter of a length 1 micrometer or smaller in the air adjusted for the outside enviroment
+
+Limitations
+Another important measurement to air quality is measuring ozone. This dataset does not contain ozone data, so another dataset would need to be used alongside this one.
+
+Sources
+This dataset was pulled from PurpleAir, which has real time and historical data concerning air quality for many parts of the world. https://map.purpleair.com/
+
+
+
+United States Geological Survey Water Quality Data:
+
+About
+This dataset has information about water quality in the Lynchburg Canal near Baytown, Texas. It contains daily data on temperature, specific conductance, pH, turbidity, and dissolved oxygen. In this dataset the most important statistics are the dissolved oxygen and pH. Both of these factors contribute greatly to the quality of the water, and fluctuations in both can harm the surrounding enviroment.
+
+Columns
+Date: datetime
+Temperature(1-3): Temperature of the water in Celsius
+Specific Conductance(4-6): How well the water conducts electricity. Measured in microsiemens per 25 centimeter at 25C
+pH (7-9): pH of the water
+Dissolved Oxygen(10-12): Amount of dissolved oxygen in the water in mg/L
+Turbidity(13-15): Measures how cloudy the water is by how much light passes through at a 90 degree angle.
+
+Limitations
+This dataset is missing some other factors that contribute to water quality, such as salinity. Another dataset might need to be used if salinity is needed.
+
+Source
+This table was taken from the United States Geological Survey Water Resource website. https://waterdata.usgs.gov/nwis
+
+
+
+Trinity Bay Salinity Data:
+
+About
+This simple dataset is the daily average of the salinity of Trinity Bay. Salinity is the salt and soil content of water. Salinity affects the health of plant and fish life in the canal. Salinity occurs naturally, but unnatural increases can occur do to waste or infrastructure affecting the ground water.
+
+Columns
+datetime: The date and time the measurements took place a
+value: The salinity of the water
+
+Source
+This data was taken from the Texas Water Developement Board's water data website. https://waterdatafortexas.org/coastal/stations/FISH
